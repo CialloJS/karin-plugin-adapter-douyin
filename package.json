@@ -1,0 +1,59 @@
+{
+  "name": "karin-plugin-adapter-douyin",
+  "version": "1.2.0",
+  "author": "CialloJS",
+  "type": "module",
+  "description": "karin 抖音适配器",
+  "homepage": "https://github.com/CialloJS/karin-plugin-adapter-douyin#readme",
+  "bugs": {
+    "url": "https://github.com/CialloJS/karin-plugin-adapter-douyin/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CialloJS/karin-plugin-adapter-douyin.git"
+  },
+  "main": "dist/index.js",
+  "dependencies": {
+    "@karinjs/plugin-shotium": "^0.3.2",
+    "@ys7zts/karin-plugin-nekostatus": "^1.4.13",
+    "douyin.ts": "0.2.1",
+    "karin-plugin-botweb": "^1.0.15",
+    "karin-plugin-qbot": "^1.0.11",
+    "protobufjs": "^8.8.0",
+    "qrcode": "^1.5.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "ws": "^8.21.3"
+  },
+  "karin": {
+    "main": "src/index.ts",
+    "apps": [
+      "dist/apps"
+    ],
+    "ts-apps": [
+      "src/apps"
+    ],
+    "static": [
+      "resources"
+    ],
+    "files": [
+      "config",
+      "data",
+      "resources"
+    ],
+    "ts-web": "src/web.config.ts",
+    "web": "dist/web.config.js"
+  },
+  "files": [
+    "/dist/**/*.js",
+    "/dist/**/*.d.ts",
+    "/config/*.json",
+    "resources",
+    "!dist/app.js",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
+}
