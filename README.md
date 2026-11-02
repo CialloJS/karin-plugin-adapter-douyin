@@ -4,7 +4,7 @@
 
 karin 抖音适配器插件
 
-基于 [douyin.ts](https://github.com/dmmdekkd/douyin.ts) SDK，支持抖音私聊 / 群聊消息收发与事件处理
+基于 [douyin.ts](https://github.com/CialloJS/douyin.ts) SDK，支持抖音私聊 / 群聊消息收发与事件处理
 
 </div>
 
@@ -69,11 +69,11 @@ pnpm add karin-plugin-adapter-douyin -w
 本插件面向 karin 运行时。若你希望在其他框架中使用抖音相关能力，可参考以下项目：
 
 - [zhin-adapter-douyin](https://github.com/zhinjs/zhin-adapter-douyin)（Zhin 框架）
-- [DouYin-Plugin](https://github.com/dmmdekkd/DouYin-Plugin)（Yunzai 框架）
+- [DouYin-Plugin](https://github.com/CialloJS/DouYin-Plugin)（Yunzai 框架）
 
 ## 相关链接
 
 - 许可证：MIT（[LICENSE](LICENSE)）
 - 更新日志：[CHANGELOG.md](CHANGELOG.md)
-- SDK：https://github.com/dmmdekkd/douyin.ts
+- SDK：https://github.com/CialloJS/douyin.ts
 - karin：https://github.com/KarinJS/Karin

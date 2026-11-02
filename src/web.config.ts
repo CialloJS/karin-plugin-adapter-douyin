@@ -15,9 +15,9 @@ export default defineConfig<{
     id: dir.name,
     name: '抖音适配器',
     author: {
-      name: 'dmmdekkd',
-      home: 'https://github.com/dmmdekkd/karin-plugin-adapter-douyin',
-      avatar: 'https://github.com/dmmdekkd.png',
+      name: 'CialloJS',
+      home: 'https://github.com/CialloJS/karin-plugin-adapter-douyin',
+      avatar: 'https://github.com/CialloJS.png',
     },
     icon: {
       name: 'smartphone',
